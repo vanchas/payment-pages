@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	margin: 0 auto;
+	color: #525252;
 }
 .header {
 	background-color: #f6f6f6;
@@ -14,24 +15,29 @@
 	padding: 5em 0;
 	overflow: hidden;
 	position: relative;
+	height: 600px;
+	width: 100vw;
 }
-.svg-vector-bg {
+.main-header-content h1 {
+	font-weight: 600;
+}
+.vector-bg {
 	position: absolute;
 	left: 0;
+	top: 0;
 	right: 0;
 	bottom: 0;
 	z-index: -2;
 	width: 100%;
+	min-height: 600px;
 }
-.svg-grid {
+.grid-image {
 	position: absolute;
 	top: 0;
-	left: 0;
 	right: 0;
-	bottom: 0;
 	opacity: 0.05;
 	z-index: -1;
-	height: 100%;
+	height: 600px;
 }
 .red-ellips {
 	position: relative;
@@ -65,6 +71,9 @@
 	max-width: 1440px;
 	margin: 0 auto;
 }
+.album-inner h3 {
+	font-weight: 600;
+}
 .album .contact {
 	text-align: center;
 	position: relative;
@@ -92,6 +101,22 @@
 	border: 1px solid #eee;
 }
 @media screen and (max-width: 768px) {
+	/*.vector-bg {*/
+	/*	display: none;*/
+	/*}*/
+	.main-header-content h1 {
+		font-size: 2em;
+	}
+	.main-header-content p {
+		font-size: 1.1em;
+	}
+	.main-header {
+		/*height: 400px;*/
+		/*padding: 0 0 2em 0;*/
+		/*display: grid;*/
+		/*align-items: center;*/
+		/*justify-content: center;*/
+	}
 	.album .contact {
 		text-align: start;
 		padding: 0 0 1em 3em;

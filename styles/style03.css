@@ -1,6 +1,7 @@
 .wrapper {
 	margin: 0;
 	padding: 0;
+	color: #525252;
 }
 .green-text {
 	color: #6cb51a;
@@ -15,11 +16,17 @@
 .main-header {
 	padding: 5em 0 10em 0;
 	overflow: hidden;
+	height: 470px;
+	width: 100vw;
+}
+.main-header-content h1 {
+	font-weight: 600;
 }
 .cards-block {
 	padding: 5em 0;
 	background-color: #f6f6f6;
 	text-align: start;
+	height: 528px;
 }
 .cards-block .container {
 	overflow: hidden;
@@ -90,34 +97,27 @@
 	.cards-list {
 		grid-template-columns: 1fr;
 	}
-	.svg-vector-bg {
-		display: none;
+	.main-header {
+		padding-top: 3em;
+		height: 414px;
+	}
+	.cards-block {
+		height: auto;
 	}
 }
-
-.svg-vector-bg {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -2;
-	width: 100%;
-}
-.svg-grid {
+.grid-image {
 	position: absolute;
 	top: 0;
-	left: 0;
 	right: 0;
-	bottom: 0;
 	opacity: 0.05;
 	z-index: -1;
-	height: 100%;
+	height: 600px;
 }
 .red-ellips {
 	position: relative;
 	height: 10em;
 	z-index: 1;
-	margin: 2em 0;
+	margin: 0 0 2em 0;
 }
 .red-ellips img {
 	position: absolute;
@@ -144,6 +144,9 @@
 .album-inner {
 	max-width: 1440px;
 	margin: 0 auto;
+}
+.album-inner h3 {
+	font-weight: 600;
 }
 .album .contact {
 	text-align: center;
