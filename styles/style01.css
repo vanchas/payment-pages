@@ -1,13 +1,14 @@
 .wrapper {
 	margin: 0;
 	padding: 0;
-	max-width: 1440px;
 	margin: 0 auto;
 }
-
-.navbar {
+.header {
 	background-color: #f6f6f6;
-	/* max-width: 1440px; */
+}
+.navbar {
+	max-width: 1440px;
+	margin: 0 auto;
 }
 .main-header {
 	padding: 5em 0;
@@ -59,6 +60,10 @@
 .album {
 	padding: 5em 0;
 	text-align: center;
+}
+.album-inner {
+	max-width: 1440px;
+	margin: 0 auto;
 }
 .album .contact {
 	text-align: center;

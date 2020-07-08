@@ -1,15 +1,16 @@
 .wrapper {
 	margin: 0;
 	padding: 0;
-	max-width: 1440px;
-	margin: 0 auto;
 }
 .green-text {
 	color: #6cb51a;
 }
-.navbar {
+.header {
 	background-color: #f6f6f6;
-	/* max-width: 1440px; */
+}
+.navbar {
+	max-width: 1440px;
+	margin: 0 auto;
 }
 .main-header {
 	padding: 5em 0 10em 0;
@@ -140,6 +141,10 @@
 	padding: 5em 0;
 	text-align: center;
 }
+.album-inner {
+	max-width: 1440px;
+	margin: 0 auto;
+}
 .album .contact {
 	text-align: center;
 	position: relative;
@@ -162,6 +167,10 @@
 	transform: translateY(-2em);
 	background-color: #f6f6f6;
 	z-index: 1;
+}
+.album .links {
+	max-width: 1440px;
+	margin: 0 auto;
 }
 .album .links a {
 	border: 1px solid #eee;
